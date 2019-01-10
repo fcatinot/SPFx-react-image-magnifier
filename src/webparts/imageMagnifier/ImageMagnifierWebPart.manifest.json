@@ -17,11 +17,10 @@
     {
       "groupId": "307ecced-b9a6-4b72-bc02-4d7ea558345a",
       "group": { "default": "Other" },
-      "title": { "default": "ImageMagnifier" },
-      "description": { "default": "Magnify the image" },
+      "title": { "default": "ImageMagnifier", "fr-FR": "Agrandir Image" },
+      "description": { "default": "Magnify the image", "fr-FR": "Loupe sur Image" },
       "officeFabricIconFontName": "FileImage",
       "properties": {
-        "description": "Configure the web part through the property pane to display the result",
         "smallImgUrl": "",
         "smallImgWidth": "",
         "smallImgHeight": "",

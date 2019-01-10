@@ -1,5 +1,4 @@
 export interface IImageMagnifierWebPartProps {
-  description: string;
   smallImgUrl: string;
   smallImgWidth: number;
   smallImgHeight: number;

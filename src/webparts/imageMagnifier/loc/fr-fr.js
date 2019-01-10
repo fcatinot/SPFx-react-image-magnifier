@@ -2,6 +2,7 @@ define([], function() {
   return {
     PropertyPaneDescription: "Configurer la WebPart",
     BasicGroupName: "",
+    Description: "Configurez le composant WebPart via le volet de propriétés pour afficher le résultat.",
     DescriptionFieldLabel: "Description",
     SmallImgUrlFieldLabel: "Url petite image",
     SmallImgWidthFieldLabel: "Largeur petite image (px)",

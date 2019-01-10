@@ -1,5 +1,4 @@
 export interface IImageMagnifierProps {
-  description: string;
   smallImgUrl: string;
   smallImgWidth: number;
   smallImgHeight: number;

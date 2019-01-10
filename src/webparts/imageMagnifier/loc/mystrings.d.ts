@@ -1,6 +1,7 @@
 declare interface IImageMagnifierWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
+  Description: string;
   DescriptionFieldLabel: string;
   SmallImgUrlFieldLabel: string;
   SmallImgWidthFieldLabel: string;
@@ -13,7 +14,7 @@ declare interface IImageMagnifierWebPartStrings {
   SizeFieldLabel: string;
 }
 
-declare module 'ImageMagnifierWebPartStrings' {
+declare module "ImageMagnifierWebPartStrings" {
   const strings: IImageMagnifierWebPartStrings;
   export = strings;
 }
