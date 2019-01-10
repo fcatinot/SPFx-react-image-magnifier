@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
   "id": "307ecced-b9a6-4b72-bc02-4d7ea558345a",
   "alias": "ImageMagnifierWebPart",
   "componentType": "WebPart",
@@ -13,23 +13,25 @@
   // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
   "requiresCustomScript": false,
 
-  "preconfiguredEntries": [{
-    "groupId": "307ecced-b9a6-4b72-bc02-4d7ea558345a",
-    "group": { "default": "Under Development" },
-    "title": { "default": "ImageMagnifier" },
-    "description": { "default": "Magnify the image" },
-    "officeFabricIconFontName": "FileImage",
-    "properties": {
-      "description": "Configure the web part through the property pane to display the result",
-      "smallImgUrl": "",
-      "smallImgWidth": "",
-      "smallImgHeight": "",
-      "largeImgUrl": "",
-      "largeImgWidth": "",
-      "largeImgHeight": "",
-      "cursorOffsetX": "80",
-      "cursorOffsetY": "-80",
-      "size": "200"
+  "preconfiguredEntries": [
+    {
+      "groupId": "307ecced-b9a6-4b72-bc02-4d7ea558345a",
+      "group": { "default": "Other" },
+      "title": { "default": "ImageMagnifier" },
+      "description": { "default": "Magnify the image" },
+      "officeFabricIconFontName": "FileImage",
+      "properties": {
+        "description": "Configure the web part through the property pane to display the result",
+        "smallImgUrl": "",
+        "smallImgWidth": "",
+        "smallImgHeight": "",
+        "largeImgUrl": "",
+        "largeImgWidth": "",
+        "largeImgHeight": "",
+        "cursorOffsetX": "80",
+        "cursorOffsetY": "-80",
+        "size": "200"
+      }
     }
-  }]
+  ]
 }

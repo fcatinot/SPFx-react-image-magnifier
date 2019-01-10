@@ -74,7 +74,7 @@ export class ImageMagnifierLens extends React.Component<ImageMagnifierLensProps,
     }
 
     public onMouseMove = (e: any) => {
-        var offset = this.getOffset(ReactDOM.findDOMNode(this));
+        var offset = this.getOffset(ReactDOM.findDOMNode(this) as HTMLDivElement );
 
         this.setState({
             x: e.x + window.scrollX,
@@ -97,7 +97,7 @@ export class ImageMagnifierLens extends React.Component<ImageMagnifierLensProps,
     private getOffset(el: HTMLDivElement): IOffset {
         let x = 0;
         let y = 0;
-    
+
         while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
             x += el.offsetLeft - el.scrollLeft;
             y += el.offsetTop - el.scrollTop;
@@ -105,7 +105,7 @@ export class ImageMagnifierLens extends React.Component<ImageMagnifierLensProps,
         }
         return { x, y };
     }
-    
+
     public render () {
         return (
             <img {...this.props} src={this.props.image.src} />
